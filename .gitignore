@@ -1,0 +1,37 @@
+# OS / editor junk
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Office lock files, backups, temp
+~$*
+*.bak
+*.tmp
+
+# Python
+__pycache__/
+*.py[cod]
+
+# DuckDB database — large (~118 MB), rebuildable from cache, and contains
+# personal collection inventory. Never publish.
+*.duckdb
+*.duckdb.wal
+*.wal
+
+# Raw third-party data caches — not ours to redistribute, and large.
+# (pokemontcg.io + PokeAPI dumps, TCGplayer CSV exports, Bulbapedia HTML scrapes)
+pricing/raw/
+checklists/raw/
+
+# Generated reports — contain personal collection inventory + value/cost data
+pricing/reports/
+
+# Personal order documents (TCGplayer packing slips, receipts, scans)
+refs/
+
+# Third-party community checklist template + raw lookup dump
+checklists/*.xlsm
+checklists/_csv_lookup_raw.csv
+
+# Local probe / scratch files
+checklists/test_massentry_probe*.txt

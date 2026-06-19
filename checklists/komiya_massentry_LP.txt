@@ -1,0 +1,252 @@
+1 Smeargle [PR] 32/53
+1 Machamp [PR] 43/53
+1 Slowpoke [N1] 073/111
+1 Focus Band [N1] 086/111
+1 Double Gust [N1] 100/111
+1 Moo-Moo Milk [N1] 101/111
+1 Pokemon March [N1] 102/111
+1 Politoed (8) [N2] 08/75
+1 Politoed (27) [N2] 27/75
+1 Pineco [N2] 61/75
+1 Delibird [N3] 05/64
+1 Jynx [N3] 31/64
+1 Octillery [N3] 34/64
+1 Snubbull [N3] 55/64
+1 Dark Omastar [N4] 019/105
+1 Dark Slowking [N4] 020/105
+1 Light Ledian [N4] 024/105
+1 Dark Omanyte [N4] 037/105
+1 Light Slowbro [N4] 051/105
+1 Ledyba [N4] 071/105
+1 Broken Ground Gym [N4] 092/105
+1 Pokemon Personality Test [N4] 102/105
+1 Pidgeot (23) [EX] 023/165
+1 Pidgeot (59) [EX] 059/165
+1 Charmeleon [EX] 073/165
+1 Pidgeotto [EX] 088/165
+1 Bulbasaur (95) [EX] 095/165
+1 Clefairy [EX] 101/165
+1 Cubone [EX] 103/165
+1 Magikarp [EX] 118/165
+1 Pidgey [EX] 123/165
+1 Moo-Moo Milk [EX] 155/165
+1 Primeape [AQ] 029/147
+1 Tyrogue [AQ] 063/147
+1 Hitmonchan [AQ] 081/147
+1 Hitmontop [AQ] 082/147
+1 Mankey [AQ] 092/147
+1 Tangela [AQ] 112/147
+1 Diglett [SK] 050/144
+1 Ditto [SK] 051/144
+1 Dugtrio [SK] 052/144
+1 Golbat [SK] 060/144
+1 Granbull [SK] 061/144
+1 Murkrow [SK] 079/144
+1 Venonat [SK] 112/144
+1 Ludicolo [SS] 7/100
+1 Lombre - 45/100 [SS] 45/100
+1 Lotad - 66/100 [SS] 66/100
+1 Whiscash [DR] 48/97
+1 Barboach [DR] 51/97
+1 Magnemite - 61/97 [DR] 61/97
+1 Magnemite [PR] 4/10
+1 Exploud [HL] 6/101
+1 Loudred [HL] 39/101
+1 Feebas [HL] 61/101
+1 Whismur [HL] 82/101
+1 Exeggutor [RG] 5/112
+1 Victreebel [RG] 17/112
+1 Exeggcute [RG] 33/112
+1 Weepinbell [RG] 51/112
+1 Bellsprout [RG] 53/112
+1 Piloswine [RR] 13/109
+1 Yanma [RR] 28/109
+1 Heracross [RR] 43/109
+1 Houndour - 060/109 [RR] 60/109
+1 Swinub [RR] 79/109
+1 Camerupt [DX] 4/107
+1 Pelipper [DX] 21/107
+1 Carvanha [DX] 56/107
+1 Numel [DX] 68/107
+1 Wingull [DX] 81/107
+1 Phanpy [POP] 015/017
+1 Sudowoodo [UF] 15/115
+1 Magcargo [UF] 41/115
+1 Miltank [UF] 42/115
+1 Slugma [UF] 73/115
+1 Drowzee [DS] 67/113
+1 Sandshrew [DS] 82/113
+1 Taillow [DS] 86/113
+1 Zubat [DS] 88/113
+1 Furret [LM] 33/92
+1 Kecleon [LM] 37/92
+1 Grimer [LM] 54/92
+1 Sentret [LM] 62/92
+1 Trapinch [LM] 67/92
+1 Dugtrio [CG] 5/100
+1 Nuzleaf [CG] 39/100
+1 Cacnea [CG] 47/100
+1 Krabby [CG] 54/100
+1 Vibrava - 024/101 (Delta Species) [DF] 24/101
+1 Horsea - 031/101 (Delta Species) [DF] 31/101
+1 Dratini (Delta Species) [DF] 46/101
+1 Wooper (Delta Species) [DF] 71/101
+1 Metang [PK] 35/108
+1 Aron [PK] 42/108
+1 Skitty [PK] 62/108
+1 Slakoth [PK] 63/108
+1 Pachirisu [MD] 43/100
+1 Aipom (50) [MD] 50/100
+1 Shelgon [SF] 50/100
+1 Cherubi [SF] 56/100
+1 Magikarp [SF] 65/100
+1 Stunky [SF] 76/100
+1 Banette [PL] 19/127
+1 Poochyena [PL] 86/127
+1 Psyduck [PL] 87/127
+1 Munchlax (69) [RR] 69/111
+1 Shellos East Sea [RR] 79/111
+1 Spheal [RR] 82/111
+1 Gabite [SV] 59
+1 Marshtomp [SV] 67
+1 Nincada [SV] 117
+1 Rhyhorn [SV] 122
+1 Haunter (41) [AR] 41/99
+1 Burmy Sandy Cloak [AR] 57/99
+1 Croagunk [AR] 61/99
+1 Butterfree [HS] 16/123
+1 Metapod [HS] 46/123
+1 Caterpie [HS] 57/123
+1 Tauros [UL] 41/95
+1 Hariyama [UD] 14/90
+1 Makuhita [UD] 55/90
+1 Kricketune [TM] 24/102
+1 Kricketot [TM] 65/102
+1 Zorua - BW12 [PR] BW12
+1 Timburr [NVI] 62/101
+1 Pawniard (81) [NVI] 81/101
+1 Drilbur [DEX] 55/108
+1 Trubbish [DRX] 53/124
+1 Audino [DRX] 108/124
+1 Pidove [BCR] 123/149
+1 Joltik [PLS] 50/135
+1 Celebi - XY187 [PR] XY187
+1 Victini [LTR] 23/113
+1 Emolga [LTR] 49/113
+1 Hydreigon [LTR] 99/113
+1 Pansear [XY] 22/146
+1 Herdier [XY] 109/146
+1 Ponyta [FLF] 14/106
+1 Forretress [FLF] 60/106
+1 Scraggy [FFI] 66/111
+1 Swadloon [PHF] 6/119
+1 Swalot [PHF] 38/119
+1 Volbeat [PRC] 17/160
+1 Illumise [PRC] 18/160
+1 Staryu [PRC] 32/160
+1 Exeggcute [ROS] 1/108
+1 Electrode [ROS] 22/108
+1 Inkay [AOR] 45/98
+1 Cyndaquil [BKT] 18/162
+1 Magneton [BKT] 53/162
+1 Beheeyem [BKT] 74/162
+1 Bronzong [BKT] 96/162
+1 Rufflet [BKT] 129/162
+1 Staryu - 4/12 [M15] 004/012
+1 Hypno [BKP] 51/122
+1 Clefairy [BKP] 81/122
+1 Gulpin [GEN] RC12/RC32
+1 Ponyta [GEN] 14/83
+1 Diglett [GEN] 38/83
+1 Binacle [FCO] 22/124
+1 Rotom [FCO] 24/124
+1 Snorlax [FCO] 77/124
+1 Larvesta [STS] 14/114
+1 Chandelure [STS] 50/114
+1 Scraggy - 7/12 [M16] 007/012
+1 Eevee & Snorlax GX - SM169 [SMP] SM169
+1 Snubbull [SM01] 90/149
+1 Snorunt [SM02] 31/145
+1 Nosepass [SM02] 69/145
+1 Sliggoo [SM02] 95/145
+1 Carnivine [SHL] 6/73
+1 Plusle [SHL] 33/73
+1 Jynx [SHL] 38/73
+1 Alolan Vulpix [SM05] 30/156
+1 Rockruff [SM06] 75/131
+1 Dedenne [SM06] 88/131
+1 Treecko [SM8] 20/214
+1 Slowpoke [SM8] 54/214
+1 Onix [SM8] 109/214
+1 Alolan Persian [SM8] 119/214
+1 Hitmonlee [SM9] 73/181
+1 Hitmonchan [SM9] 74/181
+1 Hitmontop [SM10] 101/214
+1 Crabominable [SM10] 105/214
+1 Sharpedo [SM10] 111/214
+1 Purugly [SM10] 160/214
+1 Crustle [SM11] 11/236
+1 Wimpod [SM11] 50/236
+1 Honchkrow [SM11] 130/236
+1 Noctowl [SM11] 166/236
+1 Wailmer [SM12] 45/236
+1 Araquanid [SM12] 65/236
+1 Swoobat [SM12] 88/236
+1 Jangmo-o - 161/236 [SM12] 161/236
+1 Salazzle [SWSH01] 028/202
+1 Claydol [SWSH01] 103/202
+1 Grubbin [SWSH02] 016/192
+1 Spiritomb [SWSH02] 116/192
+1 Mareanie [SWSH03] 051/189
+1 Flaaffy [SWSH03] 056/189
+1 Bunnelby [SWSH03] 150/189
+1 Pineco [SWSH04] 008/185
+1 Ninjask [SWSH04] 014/185
+1 Shedinja [SWSH04] 066/185
+1 Cacturne [SWSH05] 005/163
+1 Jellicent [SWSH05] 042/163
+1 Grumpig [SWSH05] 056/163
+1 Steenee [SWSH06] 014/198
+1 Porygon-Z [SWSH06] 118/198
+1 Galarian Slowking V (Alternate Full Art) [SWSH06] 179/198
+1 Roggenrola [SWSH07] 086/203
+1 Drampa [SWSH07] 119/203
+1 Simisear [SWSH08] 038/264
+1 Croconaw [SWSH08] 056/264
+1 Pyukumuku [SWSH08] 077/264
+1 Voltorb [SWSH08] 087/264
+1 Vibrava [SWSH09] 075/172
+1 Farfetch'd [SWSH09] 115/172
+1 Pawniard [SWSH10] 115/189
+1 Bidoof [PGO] 059/078
+1 Drampa - 14/15 [M22] 014/015
+1 Gloom [SWSH11] 002/196
+1 Malamar [SWSH11] 078/196
+1 Seviper [SWSH11] 116/196
+1 Bronzor [SWSH11] 125/196
+1 Jynx [SWSH12] 062/195
+1 Dreepy [SWSH12] 087/195
+1 Skrelp [CRZ] 081/159
+1 Oricorio [CRZ:GG] GG04/GG70
+1 Sandile - 115/198 [SVI] 115/198
+1 Drowzee - 210/198 [SVI] 210/198
+1 Frigibax - 208/193 [PAL] 208/193
+1 Arctibax - 209/193 [PAL] 209/193
+1 Baxcalibur - 210/193 [PAL] 210/193
+1 Rowlet [OBF] 013/197
+1 Lechonk - 181/197 [OBF] 181/197
+1 Gastly [MEW] 092/165
+1 Haunter [MEW] 093/165
+1 Gengar [MEW] 094/165
+1 Toedscool - 015/182 [PAR] 015/182
+1 Wiglett - 052/182 [PAR] 052/182
+1 Brute Bonnet - 207/182 [PAR] 207/182
+1 Elgyem [TEF] 073/162
+1 Venipede [TWM] 115/167
+1 Impidimp [SCR] 094/142
+1 Morelull [SSP] 008/191
+1 Noibat - 127/159 [JTG] 127/159
+1 Snover [DRI] 059/182
+1 Karrablast - 094/086 [BLK] 094/086
+1 Charcadet [PFL] 019/094
+1 Murkrow [PFL] 057/094
