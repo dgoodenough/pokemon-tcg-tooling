@@ -8,23 +8,9 @@ desktop.ini
 *.bak
 *.tmp
 
-# Python
-__pycache__/
-*.py[cod]
-
-# DuckDB database — large (~118 MB), rebuildable from cache, and contains
-# personal collection inventory. Never publish.
-*.duckdb
-*.duckdb.wal
-*.wal
-
 # Raw third-party data caches — not ours to redistribute, and large.
-# (pokemontcg.io + PokeAPI dumps, TCGplayer CSV exports, Bulbapedia HTML scrapes)
-pricing/raw/
+# (Bulbapedia HTML scrapes, unpacked xlsm, large scraped JSON)
 checklists/raw/
-
-# Generated reports — contain personal collection inventory + value/cost data
-pricing/reports/
 
 # Personal order documents (TCGplayer packing slips, receipts, scans)
 refs/

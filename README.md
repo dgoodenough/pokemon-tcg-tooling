@@ -1,73 +1,47 @@
-# Pokémon TCG Tooling
+# Pokémon TCG Checklist Generator
 
-Two related tools for working with the Pokémon Trading Card Game:
+Generates **printable collector checklists and binder-grid layouts** (PDF + HTML)
+for the Pokémon Trading Card Game — e.g. *every Ampharos card ever printed* or
+*every card illustrated by Komiya*.
 
-- **`checklists/`** — generates printable collector checklists and binder-grid
-  layouts (PDF + HTML) from card data, e.g. *every Ampharos card ever printed*
-  or *every card illustrated by Komiya*.
-- **`pricing/`** — a DuckDB-based pricing & collection-analytics pipeline that
-  ingests data from pokemontcg.io, PokeAPI, and TCGplayer exports, then derives
-  inventory valuation, set-completion, artist/variant premiums, and buy/sell
-  signals.
-
-## `checklists/`
+## How it works
 
 A PowerShell + HTML generator. For a given theme (a Pokémon, an illustrator, a
 set), it builds:
 
-- a **subset checklist** (`generate.ps1` → `*_checklist.pdf`)
-- a **binder-grid layout** (`build_grids.ps1` → `*_grid_pages.pdf`)
+- a **subset checklist** (`checklists/generate.ps1` → `*_checklist.pdf`)
+- a **binder-grid layout** (`checklists/build_grids.ps1` → `*_grid_pages.pdf`)
 - a **TCGplayer Mass Entry** string for buying the missing cards
-  (`build_komiya_massentry.ps1`)
+  (`checklists/build_komiya_massentry.ps1`)
 
 Per-theme card data lives in `checklists/<theme>/data.js`; the HTML templates
 render it and Chrome headless prints to PDF. Set-symbol icons live in
 `checklists/symbols/`. Sample outputs for Ampharos, Komiya, and Wailmer/Wailord
 are included.
 
-## `pricing/`
-
-A local analytics pipeline — no service, no cloud. Full design is in
-[`pricing/ARCHITECTURE.md`](pricing/ARCHITECTURE.md); in brief:
+## Layout
 
 ```
-external sources ─► PowerShell ingestion ─► raw/ cache ─► DuckDB ─► views ─► HTML/PDF
-(pokemontcg.io,        (seed_*.ps1,         (idempotent)  (dims +   (SQL    (Chrome
- PokeAPI, TCGplayer     import_*.ps1)                      facts +   window   headless)
- CSV exports)                                              crosswalk) fns)
+checklists/
+├── generate.ps1                 subset checklist generator (theme → PDF)
+├── build_grids.ps1              binder-grid layout generator
+├── build_komiya_massentry.ps1   TCGplayer Mass Entry string builder
+├── <theme>/                     per-theme checklist.html + data.js
+│                                (ampharos, komiya, wailmer_wailord)
+├── grids/                       per-theme binder-grid HTML
+├── symbols/                     Pokémon set-symbol icons (UI assets)
+└── *_checklist.pdf,
+    *_grid_pages.pdf             sample generated outputs
 ```
-
-- **`scripts/schema.sql`** — dimensions (`dim_card`, `dim_set`, `dim_pokemon`,
-  …), append-only facts (`fact_price`, `fact_inventory_snapshot`), a crosswalk
-  (`card_alias`) and a curation layer (`card_override`, `outlier_flag`).
-- **`scripts/views.sql`** — the materialized analytics: inventory value, set
-  completion, rarity/Pokémon price indices, artist & variant premiums, and
-  buy/sell signals.
-- **`scripts/*.ps1`** — ingestion + report rendering.
-
-The architecture doc also documents the pipeline's known data-quality limits
-(thin top-of-market pricing, promo-set cohort distortion, meta-relevance
-confounds) and the planned mitigations — worth a read.
-
-## What's included (and what isn't)
-
-To keep the repo lean and avoid redistributing third-party data or anything
-personal, these are intentionally git-ignored:
-
-- **`pipeline.duckdb`** — large, rebuildable from cache, and holds personal
-  inventory.
-- **`*/raw/`** — pokemontcg.io / PokeAPI dumps, TCGplayer CSV exports, and
-  Bulbapedia HTML scrapes (third-party data).
-- **`pricing/reports/`** — generated dashboards that include personal collection
-  valuation and cost-paid figures.
-- **`refs/`** — personal order documents.
-
-Included: all original code, the SQL schema/views, the architecture doc, and a
-few sample generated checklists so the tools are understandable end-to-end.
 
 ## Stack
 
-PowerShell · DuckDB · SQL · HTML/CSS (Chrome headless → PDF) · JavaScript.
+PowerShell · HTML/CSS · JavaScript · Chrome headless (HTML → PDF).
+
+## Related
+
+Companion repo: **[pokemon-tcg-pricing](https://github.com/dgoodenough/pokemon-tcg-pricing)**
+— a DuckDB pricing & collection-analytics pipeline over the same card domain.
 
 ## A note on Pokémon IP
 
@@ -77,5 +51,4 @@ Game Freak. This is a personal, non-commercial fan tool. The set-symbol images i
 
 ## License
 
-[MIT](LICENSE) — covers the original code in this repo, not the third-party data
-or imagery it references.
+[MIT](LICENSE).
